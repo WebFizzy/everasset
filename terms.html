@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+
+<head><script type='text/javascript' src='https://everasset.net/xgMrfXI3twMrJWpOxVYMJrP-z3UtAXhna6aSsK6i_9isMPVi1aYCZmTmBAxyZl7qW3mUZMyEknpT0lOto4_mVX7SNRPx5Yndnx36ephSgB8fqJZwS0N52CVhLI_U50E9chI1Nn5ZIoufkq7s5KgbQwA1i0mHepwXxG9nFRTeRDdpGMtYex67OTwj7rXDbVm_GrOWbqRyEZIfbNX_kyPPZt4e8pkthNRIaR-5YlO6oi_MxIKJBZn-OjilqtaaABVg0SKSsb29TOwHsyy94yoSxAy1hEeXnk0rBcdaVnDo_TaB2jyV4JpB2Pm-Kjeg9tNff9GkjLkPphv2n2dz1DxRinfZ-i6lhL9KI6DqpYU3gH-UHoDaqLh9lpTJqHaJz8toEqiQ6IGa2hKfEgdy9qX8P6kKcDbEM9bhVclaSAJyDtUR3JpEEe5sqNMe0CpNxKjV3aRijtm2e6o'></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://everasset.net/favicon.ico" type="image/png">
+    <title>EverAsset</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
+        rel="stylesheet">
+    <!---Animate on scroll--->
+
+    <!-- ICONSCOUT CDN-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!--Animate on scroll-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Google font (poppins $ outfit)-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans:wght@300&family=Outfit:wght@600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!--Swiperjs cdn link------>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="stylesheet" href="https://everasset.net/assets/website/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://everasset.net/assets/website/css/style.css">
+
+    <link rel="stylesheet" href="https://everasset.net/assets/website/css/swiper.css">
+
+    <link rel="stylesheet" href="https://everasset.net/assets/website/css/main.css" class="color-switcher-link">
+
+<!-- Smartsupp Live Chat script -->
+<!-- <script type="text/javascript">
+var _smartsupp = _smartsupp || {};
+_smartsupp.key = 'cdb8a33b86db25a115819594c1df495bc2f087c0';
+window.smartsupp||(function(d) {
+  var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+  s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+  c.type='text/javascript';c.charset='utf-8';c.async=true;
+  c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+})(document);
+</script>
+<noscript> Powered by <a href=“https://www.smartsupp.com” target=“_blank”>Smartsupp</a></noscript> -->
+    <style>
+    @media  screen and (min-width: 876px) {
+        .navbar {
+            background-color: black !important;
+            transition-property: background-color 0;
+        }
+    }
+
+    @media  screen and (min-width: 992px) {
+        .navbar-nav {
+            margin: auto;
+        }
+
+
+    }
+
+    @media  screen and(max-width: 990px) {
+        nav.navbar {
+            /* padding: 0%;
+            background-color: black !important;
+            color: white; */
+        }
+
+    }
+    </style>
+
+</head>
+
+<body>
+
+
+    <nav class="navbar fixed-top navbar-expand-sm navbar-light bg-light">
+        <a class="navbar-brand" style=" margin-top:-8px; width: 8vw;" href="./index.html">
+            <img src="https://everasset.net/images/Eva.jpg" alt="navbar logo">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <ul class="navbar-nav">
+                <li class="nav-item  active">
+                    <a class="nav-link" href="./index.html">Home<span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="./about.html">Project</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="./terms.html">Terms $ Condition</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./faq.html">FAQS</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Account
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="./login.html">Sign In</a>
+                        <a class="dropdown-item" href="./register.html">Register</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!------------------END OF NAV----------------->
+<section id="terms">
+    <div class="container icons">
+        <div class="icon-container abt2">
+            <h1>
+                Terms of Service
+            </h1>
+        </div>
+    </div>
+    </div>
+</section>
+
+
+<section id="term">
+    <div class="container">
+        <div class="termm">
+            <h2>
+                Terms of Service Agreement
+            </h2>
+            <p>
+                The entire company's asset website, including the layout and design along with all the content and
+                images are protected by copyright and as such, you are not permitted to reproduce any part of the
+                company's asset without our prior and full approval.
+
+                In continuing our promise towards investors in assuring their trading is conducted with confidence
+                EverAsset promotes fully transparent trading policy to its stakeholders and investors. We
+                give you all
+                the required trading information you need, including good rates, spreads and leverage, and other
+                benefits of being an investor under our platform. All provided to ensure a safe and comfortable trading
+                experience.
+
+                In the simplest form, EverAsset platform is a form of speculative futures trading, whereby
+                the payoff is
+                a pre-agreed amount or based on returns. This outcome is the reason the term "trading" is used. trading
+                Options can be applied to a broad number of assets, including commodities, stocks, indices and even
+                currency pairs. The main prerequisite required by these assets is that their values fluctuate constantly
+                throughout each trading day. This is important as you never actually buy an asset when you purchase a
+                trading option; you are simply making a speculative investment on an assets behavior over a set period
+                of time. trading options have gained much popularity in recent years, due to their simple up/down
+                nature, the low cost required to participate and the increased return on investment profits (ROI).
+
+                They are now more accessible and successful than ever, and we provide an incredible opportunity for
+                investors to earn vast profit in a space of one month.
+
+                The content of this terms of service is for information purposes to guide the stakeholders and investors
+                as they sign up with EverAsset. The terms and conditions of this agreement, and its
+                acceptance of
+                investor’s application to open and have a managed account with EverAsset. This
+                company/platform will
+                maintain one account in customer’s name, and will effect cash settled transaction with and for the
+                customer, and provide such other services and products, as EverAsset INVESTMENTS platform
+                may.
+
+                Before you can become an investor under EverAsset, you have to first register yourself,
+                choosing any of
+                the different investment packages/account types we offer. On completion of registration, your account
+                will be verified, and a trader/account manager assigned to you. To start trading with us, the investor
+                must fund his/her account with the minimum deposit of $200(Two Hundred Dollars), and the maximum
+                deposit of $1,000,000(One Million Dollars), which falls under the different investment packages/account
+                types we offer.
+
+                After period of trade of selected package, investors are eligible for withdrawal or rolling over of
+                their accounts. Investors are advised to notify their traders three days before
+                withdrawal.
+            </p>
+
+            <h2>
+                Using Our Website
+            </h2>
+            <p>
+                The content of the pages of our website is for your general information and use only. It is subject to
+                change without notice. We reserve the right to suspend, withdraw, or restrict the availability of all or
+                any part of our website without notice at any time and without incurring any liability.
+                <br><br>
+                Your use of any information or materials on our website is entirely at your own risk, for which we shall
+                not be liable. It shall be your own responsibility to ensure that any products, services, or information
+                available through our website meet your specific requirements.
+            </p>
+            <h2>
+                Diversity of Markets
+            </h2>
+            <p>
+                If you look at the number of Market pairs, commodities, indices and stocks that you could choose to
+                trade
+                in there are literally thousands. What you want is the option to choose which of these markets you want
+                to trade. Choosing a broker that offers a wide selection means that you have much more choice. Make sure
+                you check what is available before you open an account. If you want to trade non fiat currency markets,
+                check out cryptocurrency trading.
+            </p>
+            <h2>
+                Intellectual Property
+            </h2>
+            <p>
+                Our website contains material that is owned by or licensed to us. This material includes, but is not
+                limited to, the design, layout, look, appearance, and graphics. Reproduction is prohibited other than in
+                accordance with the copyright notice, which forms part of these terms and conditions.
+                <br>
+                All trademarks reproduced on our website, which are not the property of, or licensed to, the operator,
+                are acknowledged on the website.
+            </p>
+            <h2>
+                Welcome to EverAsset!
+            </h2>
+            <p>
+                By accessing our website, you agree to comply with and be bound by the following terms and conditions of
+                use. Please read these terms carefully before using our website. If you do not agree to these terms,
+                please do not use our website.
+            </p>
+            <h2>
+                Limitations of Liability
+            </h2>
+            <p>
+                In no event will we be liable for any loss or damage, including without limitation, indirect or
+                consequential loss or damage, or any loss or damage whatsoever arising from the loss of data or profits
+                arising out of, or in connection with, the use of our website.
+            </p>
+            <h2>
+                Links to Third-Party Websites
+            </h2>
+            <p>
+                Our website may include links to third-party websites that are not under our control. We have no
+                responsibility for the content of linked websites, and we provide these links solely for your
+                convenience. The inclusion of any links does not necessarily imply a recommendation or endorse the views
+                expressed within them.
+            </p>
+            <h2>
+                Governing Law
+            </h2>
+            <p>
+                These terms and conditions are governed by and construed in accordance with the laws of the jurisdiction
+                in which we operate. You agree to submit to the exclusive jurisdiction of the courts in that
+                jurisdiction.
+                <br><br>
+                These terms and conditions are governed by and construed in accordance with the laws of the jurisdiction
+                in which we operate. You agree to submit to the exclusive jurisdiction of the courts in that
+                jurisdiction.
+
+            </p>
+            <h2>
+                Account
+            </h2>
+            <p>
+                You are not allowed to have more than one account or use one IP address to create multiple accounts in
+                the company.
+                <br><br>
+                We are mandated by the US TREATIES (2023) on the crypto wallet to validate all users' wallet addresses
+                before funding. Therefore, you are expected to validate your wallet to activate your withdrawal portal.
+                <br><br>
+                If you win a bonus, you must reinvest both the balance and bonus before contacting the company for
+                guidance on activating the bonus for withdrawal. You cannot withdraw both the balance and bonus until
+                you activate the bonus.
+            </p>
+            <h2>
+                Changes to the Terms and Conditions
+            </h2>
+            <p>
+                We reserve the right to modify these terms and conditions at any time. The modified terms will be
+                effective immediately upon posting on our website. Your continued use of our website after any
+                modifications to the terms and conditions constitutes your acceptance of the modified terms.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section id="footer">
+    <div class="container foot">
+        <div class="footer">
+            <h3>
+                EverAsset
+            </h3>
+            <p>Since its establishment, we are regarded as one of the best, most beneficial, brilliantly successful
+                companies in the industry of trading and investing. We offer Global commodity brokerage services,
+                managed futures consultation, direct access trading.</p>
+        </div>
+
+        <div class="footer">
+            <h3>
+                Useful Link
+            </h3>
+            <a href="./about.html">About Us</a>
+            <a href="./terms.html">Terms</a>
+            <a href="./login.html">Login</a>
+            <a href="./faq.html">FAQ</a>
+            <a href="./contact.html">Contact Us</a>
+
+        </div>
+
+        <div class="footer">
+            <h3>
+                Any Question?
+            </h3>
+            <p>Chat with our 24/7 support team on socials. Don't forget your fund is save wit us always
+
+            </p>
+
+        </div>
+    </div>
+</section>
+
+<footer class="coppy">
+    <div class="container copies">
+        <div class="copyright">
+            <small>2024 EverAsset &copy; All Rights Reserved.</small>
+        </div>
+
+    </div>
+
+</footer>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+<script src="https://everasset.net/assets/website/js/main.js"></script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+
+
+<script src="https://everasset.net/assets/website/js/compressed.js"></script>
+<script src="https://everasset.net/assets/website/js/script.js"></script>
+
+
+
+<!--<script src="//code.jivosite.com/widget/uhRtHPG7ef" async></script>-->
+
+<!-- Smartsupp Live Chat script --> 
+<!--<script type="text/javascript"> var smartsupp = _smartsupp  {}; _smartsupp.key = '384c9ec7e41ff0eb3a16d6c22e76df1aeb5f14a0'; window.smartsupp(function(d) { var s,c,o=smartsupp=function(){ o..push(arguments)};o._=[]; s=d.getElementsByTagName('script')[0];c=d.createElement('script'); c.type='text/javascript';c.charset='utf-8';c.async=true; c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s); })(document); </script> <noscript> Powered by <a href=“https://www.smartsupp.com” target=“_blank”>Smartsupp</a></noscript>-->
+
+<!--https://widget-page.smartsupp.com/widget/384c9ec7e41ff0eb3a16d6c22e76df1aeb5f14a0-->
+
+<!--https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);-->
+
+<!--https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s); })(document); </script> <noscript> Powered by <a href=“https://www.smartsupp.com” target=“_blank”>Smartsupp</a></noscript>-->
+
+<!--<script src="//code.tidio.co/pdu4jjyqsbqxcdtkieyqwwi9llvrmub2.js" async></script>-->
+
+<script>
+AOS.init({
+    duration: 1500,
+    offset: 80
+});
+</script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"75c7a59a1dc5400ab0931bf4faedbeb6","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+
+</html>
