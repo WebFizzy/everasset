@@ -1166,7 +1166,7 @@ blockquote {
             rgba(20, 20, 20, 0.8),
             rgba(24, 24, 24, 0.8)
         ),
-        url("https://everasset.net/images/intro-video.jpg");
+        url("https://everasset.net/website/images/intro-video.jpg");
     background-position: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1259,7 +1259,7 @@ blockquote {
             rgba(20, 20, 20, 0.8),
             rgba(24, 24, 24, 0.8)
         ),
-        url("https://everasset.net/images/cryptoBen.jpg");
+        url("https://everasset.net/website/images/cryptoBen.jpg");
     background-position: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1377,7 +1377,7 @@ blockquote {
             rgba(20, 20, 20, 0.8),
             rgba(24, 24, 24, 0.8)
         ),
-        url("https://everasset.net/images/analyst2.jpg");
+        url("https://everasset.net/website/images/analyst2.jpg");
     background-position: center;
     background-size: cover;
     min-height: 65vh;
@@ -2243,4 +2243,5 @@ blockquote {
 .navbar-toggler-icon {
     color: white;
 }
+
 
